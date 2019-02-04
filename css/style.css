@@ -22,7 +22,8 @@ h1 {
 
 h3 {
   font-size: 1.25em;
-  font-weight:
+  font-weight:bold;
+  margin-bottom: 20px;
 }
 
 nav {
@@ -31,6 +32,10 @@ nav {
   position: fixed;
   width: 100%;
   text-decoration: none;
+}
+
+p {
+  margin-bottom: 20px
 }
 
 .logo {
@@ -68,6 +73,7 @@ li {
 article {
   padding-top: 100px;
   line-height: 1.5;
+  margin-bottom: 1.5;
 }
 
 .container {
