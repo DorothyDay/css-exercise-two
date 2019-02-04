@@ -1,6 +1,28 @@
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+a:hover {
+  color: #3a4660;
+}
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #c9af98;
+  color: #3a4660;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight:
 }
 
 nav {
@@ -8,6 +30,7 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  text-decoration: none;
 }
 
 .logo {
@@ -44,6 +67,7 @@ li {
 
 article {
   padding-top: 100px;
+  line-height: 1.5;
 }
 
 .container {
